@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<head>
+    <title>Punto1</title>
+</head>
+<body align="center">
+    <p>ingrese primer numero y segundo numero:</p>  
+	<div onkeypress="return soloNum(event);"  required>
+		<label>primer numero: </label>
+		<input id="primernumero"><br>
+		<label>segundo numero: </label> 
+		<input id="segundonumero"><br>
+	</div>
+	<P>calcule</p>
+    <button type="button" onclick="validar(); myop1()">Sumar</button><br>
+	<button type="button" onclick="validar(); myop2()">Restar</button><br>
+	<button type="button" onclick="validar(); myop3()">Multiplicar</button><br>
+	<button type="button" onclick="validar(); myop4()">Dividir</button><br>
+	<button type="button" onclick="validar(); myop5()">Potencia</button>
+	<P>el resultado de la operacion elegida es:</p>
+	<p id="sum"></p>  
+	<p id="rest"></p>
+    <p id="multi"></p>
+    <p id="div"></p>
+	<p id="pot"></p>
+    <script src="script/operacion.js"></script>
+</body>
+</html>

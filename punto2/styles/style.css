@@ -1,0 +1,28 @@
+body {
+	familia de fuentes: 'PT Sans Narrow', sans-serif;
+}
+.navbar{
+	background-color: #ffffff;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0, .05);
+	min-height:100px;
+}
+
+.nav-link { color: #1a1a1a;}
+
+.logo-brand{
+	min-width: 160px;
+	max-width: 180px;
+	 
+} 
+
+.navbar-toggler {font-size:40px;}
+.navbar-toggler:focus{outline:none;}
+
+#hero {
+		'https://www.diariomotor.com/imagenes/picscache/375x250c/tesla-model-x-9_375x250c.jpg');
+	background-size: cover;
+	padding-top:90px;
+	min-height: 700px ;
+	color: #ffffff; 
+	
+}
